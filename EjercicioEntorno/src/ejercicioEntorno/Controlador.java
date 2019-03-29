@@ -20,6 +20,13 @@ public class Controlador implements ActionListener, WindowListener {
 		objVista.aceptar.addActionListener(this);
 		objVista.addWindowListener(this);
 		
+		try {
+			String leerPalabra;
+				return ;
+			
+		
+		}
+		
 	}
 	
 	
