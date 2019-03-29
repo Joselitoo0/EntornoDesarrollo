@@ -46,7 +46,7 @@ public class Controlador implements ActionListener, WindowListener {
 
 	@Override
 	public void windowClosing(WindowEvent arg0) {
-		// TODO Auto-generated method stub
+		System.exit(0);
 		
 	}
 
