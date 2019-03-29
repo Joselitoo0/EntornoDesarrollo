@@ -34,9 +34,7 @@ public class Controlador implements ActionListener, WindowListener {
 	
 	@Override
 	public void windowActivated(WindowEvent arg0) {
-		if(objVista.aceptar.equals(arg0.getSource())) {
-			
-		}
+		
 		
 	}
 
@@ -78,7 +76,9 @@ public class Controlador implements ActionListener, WindowListener {
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		// TODO Auto-generated method stub
+if(objVista.aceptar.equals(arg0.getSource())) {
+			
+		}
 		
 	}
 
